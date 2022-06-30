@@ -66,12 +66,15 @@ body {
 display: none;
     
   }
-    i{
+    img{
       position:relative;
-      left: 90%;
-      top: 50px;
+      left: 80%;
+      top: 15px;
+      height: 50px;
+      width: 30px;
       font-weight: 100;
       font-size: 25px;
+      background-color: $bg-color;
       cursor: pointer;
       @media screen and(max-width:660px) {
     left: 120px;
@@ -103,7 +106,7 @@ align-self: center;
 font-size: 10px;
     }
     @media screen and(max-width:1080px) {
-      top: 8px;
+    
   
     transform: translateX(0);
 
@@ -112,6 +115,11 @@ font-size: 10px;
 
       max-width: 100%;
       align-items: center;
+      
+    }
+    @media screen and (max-width:960px) 
+    {
+      top:0;
       
     }
 
@@ -204,6 +212,7 @@ font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 0;
 
     &__wrapper {
       width: 80%;
